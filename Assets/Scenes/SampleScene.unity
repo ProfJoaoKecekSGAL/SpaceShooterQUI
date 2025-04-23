@@ -182,13 +182,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7da6afa210a6a7342b5f8523913ceb84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.1, y: 0.8333333}
+  m_Size: {x: 1.4222223, y: 1.4222223}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -203,7 +203,7 @@ Transform:
   m_GameObject: {fileID: 228866286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalPosition: {x: 0.663, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -251,7 +251,7 @@ MonoBehaviour:
   gameManager: {fileID: 1294947782}
   moveSpeed: 1700
   shootPrefab: {fileID: 1793390299812323032, guid: 37f2a2abc3cbe774eb91bfcfed3f6f1c, type: 3}
-  timeToShoot: 0.3
+  timeToShoot: 0.2
   dieEffectPlayer: {fileID: 0}
 --- !u!60 &228866291
 PolygonCollider2D:
@@ -290,32 +290,32 @@ PolygonCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.4222223, y: 1.4222223}
-    newSize: {x: 1.1, y: 0.8333333}
+    newSize: {x: 1.4222223, y: 1.4222223}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6252679, y: -0.033051185}
-      - {x: 0.27501413, y: 0.2772701}
-      - {x: 0.23464161, y: 0.38091588}
-      - {x: 0.23711023, y: 0.5125201}
-      - {x: 0.11562328, y: 0.7072758}
-      - {x: -0.10028206, y: 0.7072758}
-      - {x: -0.23183599, y: 0.52299213}
-      - {x: -0.2336154, y: 0.3062606}
-      - {x: -0.6178286, y: -0.032203138}
-      - {x: -0.58455884, y: -0.18229856}
-      - {x: -0.37219045, y: -0.19240662}
-      - {x: -0.2206167, y: -0.12064028}
-      - {x: -0.12792617, y: -0.49244356}
-      - {x: -0.04563824, y: -0.73439986}
-      - {x: 0.062273063, y: -0.7111111}
-      - {x: 0.18601242, y: -0.24827965}
-      - {x: 0.22797531, y: -0.07873681}
-      - {x: 0.3974688, y: -0.21351004}
-      - {x: 0.5792443, y: -0.1586013}
+    - - {x: 0.6004698, y: -0.02862835}
+      - {x: 0.5656054, y: 0.030830689}
+      - {x: 0.26954898, y: 0.24232152}
+      - {x: 0.2143345, y: 0.52476376}
+      - {x: 0.09580898, y: 0.6901051}
+      - {x: 0.05980718, y: 0.7075274}
+      - {x: -0.07115589, y: 0.714547}
+      - {x: -0.20448926, y: 0.5727347}
+      - {x: -0.21917206, y: 0.32345784}
+      - {x: -0.59977853, y: -0.022222223}
+      - {x: -0.58589906, y: -0.18888688}
+      - {x: -0.3833205, y: -0.18614592}
+      - {x: -0.23335585, y: -0.062689036}
+      - {x: -0.031689115, y: -0.71631104}
+      - {x: 0.0426066, y: -0.7111111}
+      - {x: 0.2313171, y: -0.03755808}
+      - {x: 0.37876496, y: -0.17632611}
+      - {x: 0.57454956, y: -0.18973303}
+      - {x: 0.60789776, y: -0.15017441}
   m_UseDelaunayMesh: 0
 --- !u!1 &519420028
 GameObject:
